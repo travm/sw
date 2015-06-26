@@ -1,4 +1,4 @@
-importScripts('/lib/serviceworker-cache-polyfill.js');
+importScripts('lib/serviceworker-cache-polyfill.js');
 
 // Files
 var CACHE_NAME = 'my-site-cache-v1';
