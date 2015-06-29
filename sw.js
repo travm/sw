@@ -3,9 +3,8 @@ importScripts('lib/serviceworker-cache-polyfill.js');
 // Files
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-    '/',
-    '/css/site.css',
-    '/js/site.js'
+    'css/site.css',
+    'js/site.js'
 ];
 
 // On Install...
